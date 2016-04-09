@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "express": "4.13.4",
+    "filenamify": "1.2.1",
     "screenshot-stream": "3.2.0"
   },
   "devDependencies": {
