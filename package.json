@@ -1,0 +1,30 @@
+{
+  "name": "screenshot-stream-service",
+  "version": "1.0.0",
+  "description": "A service to get a screenshot with screenshot-stream",
+  "main": "index.js",
+  "dependencies": {
+    "express": "4.13.4",
+    "screenshot-stream": "3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.9.1"
+  },
+  "scripts": {
+    "start": "PORT=8080 node .",
+    "deploy": "git push heroku master",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentcdodds/screenshot-stream-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kentcdodds/screenshot-stream-service/issues"
+  },
+  "homepage": "https://github.com/kentcdodds/screenshot-stream-service#readme"
+}
