@@ -11,7 +11,7 @@
     "nodemon": "1.9.1"
   },
   "scripts": {
-    "start": "PORT=8080 node .",
+    "start": "node .",
     "deploy": "git push heroku master",
     "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"

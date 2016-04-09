@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
   stream.pipe(res)
 });
 
-const port = process.env.PORT || 3000
+const port = app.get('port') || process.env.PORT || 3000
 app.listen(port, function () {
   console.log('Example app listening on port ' + port)
 })
