@@ -13,7 +13,6 @@
   },
   "scripts": {
     "start": "node .",
-    "deploy": "git push heroku master",
     "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
